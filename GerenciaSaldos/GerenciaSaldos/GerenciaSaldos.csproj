@@ -238,7 +238,6 @@
     <Compile Include="Areas\HelpPage\SampleGeneration\SampleDirection.cs" />
     <Compile Include="Areas\HelpPage\SampleGeneration\TextSample.cs" />
     <Compile Include="Areas\HelpPage\XmlDocumentationProvider.cs" />
-    <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\ConsultaSaldoOnLineController.cs" />
     <Compile Include="Controllers\RemoveSaldoOnLineController.cs" />
     <Compile Include="Controllers\AdicionaSaldoOnLineController.cs" />

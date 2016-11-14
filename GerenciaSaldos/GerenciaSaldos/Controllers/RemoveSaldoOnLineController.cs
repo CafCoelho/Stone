@@ -13,7 +13,7 @@ namespace GerenciaSaldos.Controllers
     {
 
         // PUT api/<controller>/5
-        public HttpResponseMessage Put(int id, decimal value)
+        public HttpResponseMessage Put(int id, decimal Valor, string IdOperacao)
         {
             HttpResponseMessage Result = new HttpResponseMessage();
             Result.StatusCode = HttpStatusCode.OK;
@@ -21,27 +21,20 @@ namespace GerenciaSaldos.Controllers
             decimal SaldoRetornado = 0;
             string Comando = "";
 
-            using (STONEEntities db = new STONEEntities())
+            using (STONEEntities StoneDB = new STONEEntities())
             {
                 Comando = string.Format("Select Saldo from SaldoAtual where idCliente = {0}", id);
-                SaldoRetornado = db.Database.SqlQuery<decimal>(Comando).SingleOrDefault(); 
-                if (SaldoRetornado < value)
+                SaldoRetornado = StoneDB.Database.SqlQuery<decimal>(Comando).SingleOrDefault();
+                if (SaldoRetornado < Valor)
                 {
                     Result.ReasonPhrase = "O Valor é maior que o saldo disponível";
                     Result.StatusCode = HttpStatusCode.Forbidden;
                 }
                 else
                 {
-                    try
-                    {
-                        Comando = string.Format("Update SaldoAtual set Saldo = (Saldo - {0}) where idCliente = {1}", value, id);
-                        int retorno = db.Database.ExecuteSqlCommand(Comando);
-                    }
-                    catch (Exception ex)
-                    {
-                        Result.ReasonPhrase = ex.Message;
-                        Result.StatusCode = HttpStatusCode.BadRequest;
-                    }
+                    string Comando1 = string.Format("INSERT INTO SaldoHistorico(IdCliente, Valor, TipoOperacao, idOperacao) VALUES({0}, {1}, '{2}', '{3}')", id, Valor, "-", IdOperacao);
+                    int retorno;
+                    retorno = StoneDB.Database.ExecuteSqlCommand(Comando1);
                 }
 
             }

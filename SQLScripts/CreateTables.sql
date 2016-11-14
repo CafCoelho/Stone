@@ -4,15 +4,57 @@ create table SaldoAtual
 (
 idCliente int not null primary key,
 saldo decimal(18,2) not null
-)
+) ON [PRIMARY]
 
-drop table HistoricoSaldo
+drop table SaldoHistorico
 go
-create table HistoricoSaldo
-(
-IdHistorico int not null primary key,
-IdCliente int Not Null, index IdxIdCliente2 NonClustered (idCliente) ,
-Valor decimal(18,2) not null,
-TipoOperacao char(1) not null,
-IdOperacao varChar(50) null
-)
+CREATE TABLE SaldoHistorico(
+	idHistorico int IDENTITY(1,1) NOT NULL  primary key,
+	IdCliente int NOT NULL,
+	Valor decimal(18, 2) NOT NULL,
+	TipoOperacao char(1) NOT NULL,
+	idOperacao varchar(50) NULL
+) ON [PRIMARY]
+
+GO
+
+----------------------------------------------------------------------------------------------------------------------------------
+--	Trigger para atualização de saldos
+----------------------------------------------------------------------------------------------------------------------------------
+
+
+CREATE TRIGGER dbo.tr_SumarizaSaldo ON dbo.SaldoHistorico
+FOR INSERT, UPDATE, DELETE
+NOT FOR REPLICATION
+AS
+
+IF @@rowcount = 0
+	RETURN
+
+SET NOCOUNT ON
+----------------------------------------------------------------------------------------------------------------------------------
+--	Parte da Insercao
+----------------------------------------------------------------------------------------------------------------------------------
+
+IF EXISTS (SELECT IM.IdCliente,im.Valor,im.TipoOperacao FROM Inserted IM LEFT OUTER JOIN SaldoAtual SA ON (IM.IdCliente = SA.idCliente) WHERE SA.idCliente IS NULL)
+BEGIN
+	INSERT INTO SaldoAtual (IdCliente,saldo) 
+	 (SELECT IM.IdCliente, im.Valor FROM Inserted IM)
+END
+else
+BEGIN
+    UPDATE SA set SA.Saldo = (CASE WHEN IM.TipoOperacao= '+' THEN SA.Saldo + IM.valor ELSE SA.Saldo - IM.valor END)
+	from Inserted IM
+	JOIN SaldoAtual SA ON (IM.IdCliente = SA.IdCliente)
+END
+----------------------------------------------------------------------------------------------------------------------------------
+--	Parte da Delecao
+--	Só executa se for delete mesmo, nao se for update
+----------------------------------------------------------------------------------------------------------------------------------
+IF EXISTS (SELECT IM.IdCliente,im.Valor,im.TipoOperacao FROM Inserted IM LEFT OUTER JOIN SaldoAtual SA ON (IM.IdCliente = SA.idCliente) WHERE SA.idCliente IS NULL)
+BEGIN
+    UPDATE SA set SA.Saldo = SA.Saldo - DL.valor
+	from deleted DL
+	JOIN SaldoAtual SA ON (DL.IdCliente = SA.IdCliente)
+end
+GO

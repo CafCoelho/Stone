@@ -1,0 +1,282 @@
+﻿
+Executando uma instalação transacionada.
+
+Começando a fase de instalação da instalação.
+Consulte o conteúdo do arquivo de log para o andamento do assembly C:\WorkDotNetFenix\Stone\ServiceQueue\Instalação\ServiceStoneQueuePersist.exe.
+Arquivo está localizado em C:\WorkDotNetFenix\Stone\ServiceQueue\Instalação\ServiceStoneQueuePersist.InstallLog.
+
+Fase de instalação foi concluída com êxito e a fase de confirmação está começando.
+Consulte o conteúdo do arquivo de log para o andamento do assembly C:\WorkDotNetFenix\Stone\ServiceQueue\Instalação\ServiceStoneQueuePersist.exe.
+Arquivo está localizado em C:\WorkDotNetFenix\Stone\ServiceQueue\Instalação\ServiceStoneQueuePersist.InstallLog.
+
+Fase de confirmação foi concluída com êxito.
+
+Instalação transacionada concluída.
+
+Executando uma instalação transacionada.
+
+Começando a fase de instalação da instalação.
+Consulte o conteúdo do arquivo de log para o andamento do assembly C:\WorkDotNetFenix\Stone\ServiceQueue\Instalação\ServiceStoneQueuePersist.exe.
+Arquivo está localizado em C:\WorkDotNetFenix\Stone\ServiceQueue\Instalação\ServiceStoneQueuePersist.InstallLog.
+
+Fase de instalação foi concluída com êxito e a fase de confirmação está começando.
+Consulte o conteúdo do arquivo de log para o andamento do assembly C:\WorkDotNetFenix\Stone\ServiceQueue\Instalação\ServiceStoneQueuePersist.exe.
+Arquivo está localizado em C:\WorkDotNetFenix\Stone\ServiceQueue\Instalação\ServiceStoneQueuePersist.InstallLog.
+
+Fase de confirmação foi concluída com êxito.
+
+Instalação transacionada concluída.
+
+Executando uma instalação transacionada.
+
+Começando a fase de instalação da instalação.
+Consulte o conteúdo do arquivo de log para o andamento do assembly C:\WorkDotNetFenix\Stone\ServiceQueue\Instalação\ServiceStoneQueuePersist.exe.
+Arquivo está localizado em C:\WorkDotNetFenix\Stone\ServiceQueue\Instalação\ServiceStoneQueuePersist.InstallLog.
+
+Fase de instalação foi concluída com êxito e a fase de confirmação está começando.
+Consulte o conteúdo do arquivo de log para o andamento do assembly C:\WorkDotNetFenix\Stone\ServiceQueue\Instalação\ServiceStoneQueuePersist.exe.
+Arquivo está localizado em C:\WorkDotNetFenix\Stone\ServiceQueue\Instalação\ServiceStoneQueuePersist.InstallLog.
+
+Fase de confirmação foi concluída com êxito.
+
+Instalação transacionada concluída.
+
+Executando uma instalação transacionada.
+
+Começando a fase de instalação da instalação.
+Consulte o conteúdo do arquivo de log para o andamento do assembly C:\WorkDotNetFenix\Stone\ServiceQueue\Instalação\ServiceStoneQueuePersist.exe.
+Arquivo está localizado em C:\WorkDotNetFenix\Stone\ServiceQueue\Instalação\ServiceStoneQueuePersist.InstallLog.
+
+Ocorreu uma exceção durante a fase de instalação.
+System.ComponentModel.Win32Exception: Acesso negado
+
+Fase de reversão da instalação está começando.
+Consulte o conteúdo do arquivo de log para o andamento do assembly C:\WorkDotNetFenix\Stone\ServiceQueue\Instalação\ServiceStoneQueuePersist.exe.
+Arquivo está localizado em C:\WorkDotNetFenix\Stone\ServiceQueue\Instalação\ServiceStoneQueuePersist.InstallLog.
+
+Fase de reversão foi concluída com êxito.
+
+Instalação transacionada concluída.
+
+Executando uma instalação transacionada.
+
+Começando a fase de instalação da instalação.
+Consulte o conteúdo do arquivo de log para o andamento do assembly C:\WorkDotNetFenix\Stone\ServiceQueue\Instalação\ServiceStoneQueuePersist.exe.
+Arquivo está localizado em C:\WorkDotNetFenix\Stone\ServiceQueue\Instalação\ServiceStoneQueuePersist.InstallLog.
+
+Ocorreu uma exceção durante a fase de instalação.
+System.ComponentModel.Win32Exception: Acesso negado
+
+Fase de reversão da instalação está começando.
+Consulte o conteúdo do arquivo de log para o andamento do assembly C:\WorkDotNetFenix\Stone\ServiceQueue\Instalação\ServiceStoneQueuePersist.exe.
+Arquivo está localizado em C:\WorkDotNetFenix\Stone\ServiceQueue\Instalação\ServiceStoneQueuePersist.InstallLog.
+
+Fase de reversão foi concluída com êxito.
+
+Instalação transacionada concluída.
+
+Executando uma instalação transacionada.
+
+Começando a fase de instalação da instalação.
+Consulte o conteúdo do arquivo de log para o andamento do assembly C:\WorkDotNetFenix\Stone\ServiceQueue\Instalação\ServiceStoneQueuePersist.exe.
+Arquivo está localizado em C:\WorkDotNetFenix\Stone\ServiceQueue\Instalação\ServiceStoneQueuePersist.InstallLog.
+
+Ocorreu uma exceção durante a fase de instalação.
+System.ComponentModel.Win32Exception: Acesso negado
+
+Fase de reversão da instalação está começando.
+Consulte o conteúdo do arquivo de log para o andamento do assembly C:\WorkDotNetFenix\Stone\ServiceQueue\Instalação\ServiceStoneQueuePersist.exe.
+Arquivo está localizado em C:\WorkDotNetFenix\Stone\ServiceQueue\Instalação\ServiceStoneQueuePersist.InstallLog.
+
+Fase de reversão foi concluída com êxito.
+
+Instalação transacionada concluída.
+
+Executando uma instalação transacionada.
+
+Começando a fase de instalação da instalação.
+Consulte o conteúdo do arquivo de log para o andamento do assembly C:\WorkDotNetFenix\Stone\ServiceQueue\Instalação\ServiceStoneQueuePersist.exe.
+Arquivo está localizado em C:\WorkDotNetFenix\Stone\ServiceQueue\Instalação\ServiceStoneQueuePersist.InstallLog.
+
+Ocorreu uma exceção durante a fase de instalação.
+System.InvalidOperationException: Usuário cancelou a instalação dos serviços no executável C:\WorkDotNetFenix\Stone\ServiceQueue\Instalação\ServiceStoneQueuePersist.exe.
+
+Fase de reversão da instalação está começando.
+Consulte o conteúdo do arquivo de log para o andamento do assembly C:\WorkDotNetFenix\Stone\ServiceQueue\Instalação\ServiceStoneQueuePersist.exe.
+Arquivo está localizado em C:\WorkDotNetFenix\Stone\ServiceQueue\Instalação\ServiceStoneQueuePersist.InstallLog.
+
+Fase de reversão foi concluída com êxito.
+
+Instalação transacionada concluída.
+
+Executando uma instalação transacionada.
+
+Começando a fase de instalação da instalação.
+Consulte o conteúdo do arquivo de log para o andamento do assembly C:\WorkDotNetFenix\Stone\ServiceQueue\Instalação\ServiceStoneQueuePersist.exe.
+Arquivo está localizado em C:\WorkDotNetFenix\Stone\ServiceQueue\Instalação\ServiceStoneQueuePersist.InstallLog.
+
+Ocorreu uma exceção durante a fase de instalação.
+System.InvalidOperationException: Usuário cancelou a instalação dos serviços no executável C:\WorkDotNetFenix\Stone\ServiceQueue\Instalação\ServiceStoneQueuePersist.exe.
+
+Fase de reversão da instalação está começando.
+Consulte o conteúdo do arquivo de log para o andamento do assembly C:\WorkDotNetFenix\Stone\ServiceQueue\Instalação\ServiceStoneQueuePersist.exe.
+Arquivo está localizado em C:\WorkDotNetFenix\Stone\ServiceQueue\Instalação\ServiceStoneQueuePersist.InstallLog.
+
+Fase de reversão foi concluída com êxito.
+
+Instalação transacionada concluída.
+
+Executando uma instalação transacionada.
+
+Começando a fase de instalação da instalação.
+Consulte o conteúdo do arquivo de log para o andamento do assembly C:\zInstalacao\ServiceStoneQueuePersist.exe.
+Arquivo está localizado em C:\zInstalacao\ServiceStoneQueuePersist.InstallLog.
+
+Ocorreu uma exceção durante a fase de instalação.
+System.ComponentModel.Win32Exception: Acesso negado
+
+Fase de reversão da instalação está começando.
+Consulte o conteúdo do arquivo de log para o andamento do assembly C:\zInstalacao\ServiceStoneQueuePersist.exe.
+Arquivo está localizado em C:\zInstalacao\ServiceStoneQueuePersist.InstallLog.
+
+Fase de reversão foi concluída com êxito.
+
+Instalação transacionada concluída.
+
+Executando uma instalação transacionada.
+
+Começando a fase de instalação da instalação.
+Consulte o conteúdo do arquivo de log para o andamento do assembly C:\zInstalacao\ServiceStoneQueuePersist.exe.
+Arquivo está localizado em C:\zInstalacao\ServiceStoneQueuePersist.InstallLog.
+
+Ocorreu uma exceção durante a fase de instalação.
+System.InvalidOperationException: Usuário cancelou a instalação dos serviços no executável C:\zInstalacao\ServiceStoneQueuePersist.exe.
+
+Fase de reversão da instalação está começando.
+Consulte o conteúdo do arquivo de log para o andamento do assembly C:\zInstalacao\ServiceStoneQueuePersist.exe.
+Arquivo está localizado em C:\zInstalacao\ServiceStoneQueuePersist.InstallLog.
+
+Fase de reversão foi concluída com êxito.
+
+Instalação transacionada concluída.
+
+Executando uma instalação transacionada.
+
+Começando a fase de instalação da instalação.
+Consulte o conteúdo do arquivo de log para o andamento do assembly C:\InstSvc\ServiceStoneQueuePersist.exe.
+Arquivo está localizado em C:\InstSvc\ServiceStoneQueuePersist.InstallLog.
+
+Ocorreu uma exceção durante a fase de instalação.
+System.ComponentModel.Win32Exception: O nome da conta é inválido, inexistente ou a senha não é válida para o nome de conta especificado
+
+Fase de reversão da instalação está começando.
+Consulte o conteúdo do arquivo de log para o andamento do assembly C:\InstSvc\ServiceStoneQueuePersist.exe.
+Arquivo está localizado em C:\InstSvc\ServiceStoneQueuePersist.InstallLog.
+
+Fase de reversão foi concluída com êxito.
+
+Instalação transacionada concluída.
+
+Executando uma instalação transacionada.
+
+Começando a fase de instalação da instalação.
+Consulte o conteúdo do arquivo de log para o andamento do assembly C:\InstSvc\ServiceStoneQueuePersist.exe.
+Arquivo está localizado em C:\InstSvc\ServiceStoneQueuePersist.InstallLog.
+
+Ocorreu uma exceção durante a fase de instalação.
+System.ComponentModel.Win32Exception: O nome da conta é inválido, inexistente ou a senha não é válida para o nome de conta especificado
+
+Fase de reversão da instalação está começando.
+Consulte o conteúdo do arquivo de log para o andamento do assembly C:\InstSvc\ServiceStoneQueuePersist.exe.
+Arquivo está localizado em C:\InstSvc\ServiceStoneQueuePersist.InstallLog.
+
+Fase de reversão foi concluída com êxito.
+
+Instalação transacionada concluída.
+
+Executando uma instalação transacionada.
+
+Começando a fase de instalação da instalação.
+Consulte o conteúdo do arquivo de log para o andamento do assembly C:\InstSvc\ServiceStoneQueuePersist.exe.
+Arquivo está localizado em C:\InstSvc\ServiceStoneQueuePersist.InstallLog.
+
+Ocorreu uma exceção durante a fase de instalação.
+System.ComponentModel.Win32Exception: O nome da conta é inválido, inexistente ou a senha não é válida para o nome de conta especificado
+
+Fase de reversão da instalação está começando.
+Consulte o conteúdo do arquivo de log para o andamento do assembly C:\InstSvc\ServiceStoneQueuePersist.exe.
+Arquivo está localizado em C:\InstSvc\ServiceStoneQueuePersist.InstallLog.
+
+Fase de reversão foi concluída com êxito.
+
+Instalação transacionada concluída.
+
+Executando uma instalação transacionada.
+
+Começando a fase de instalação da instalação.
+Consulte o conteúdo do arquivo de log para o andamento do assembly C:\InstSvc\ServiceStoneQueuePersist.exe.
+Arquivo está localizado em C:\InstSvc\ServiceStoneQueuePersist.InstallLog.
+
+Ocorreu uma exceção durante a fase de instalação.
+System.ArgumentOutOfRangeException: O índice e o comprimento devem se referir a um local dentro da cadeia de caracteres.
+Nome do parâmetro: length
+
+Fase de reversão da instalação está começando.
+Consulte o conteúdo do arquivo de log para o andamento do assembly C:\InstSvc\ServiceStoneQueuePersist.exe.
+Arquivo está localizado em C:\InstSvc\ServiceStoneQueuePersist.InstallLog.
+
+Fase de reversão foi concluída com êxito.
+
+Instalação transacionada concluída.
+
+Executando uma instalação transacionada.
+
+Começando a fase de instalação da instalação.
+Consulte o conteúdo do arquivo de log para o andamento do assembly C:\InstSvc\ServiceStoneQueuePersist.exe.
+Arquivo está localizado em C:\InstSvc\ServiceStoneQueuePersist.InstallLog.
+
+Ocorreu uma exceção durante a fase de instalação.
+System.ArgumentOutOfRangeException: O índice e o comprimento devem se referir a um local dentro da cadeia de caracteres.
+Nome do parâmetro: length
+
+Fase de reversão da instalação está começando.
+Consulte o conteúdo do arquivo de log para o andamento do assembly C:\InstSvc\ServiceStoneQueuePersist.exe.
+Arquivo está localizado em C:\InstSvc\ServiceStoneQueuePersist.InstallLog.
+
+Fase de reversão foi concluída com êxito.
+
+Instalação transacionada concluída.
+
+Executando uma instalação transacionada.
+
+Começando a fase de instalação da instalação.
+Consulte o conteúdo do arquivo de log para o andamento do assembly C:\InstSvc\ServiceStoneQueuePersist.exe.
+Arquivo está localizado em C:\InstSvc\ServiceStoneQueuePersist.InstallLog.
+
+Ocorreu uma exceção durante a fase de instalação.
+System.ComponentModel.Win32Exception: Acesso negado
+
+Fase de reversão da instalação está começando.
+Consulte o conteúdo do arquivo de log para o andamento do assembly C:\InstSvc\ServiceStoneQueuePersist.exe.
+Arquivo está localizado em C:\InstSvc\ServiceStoneQueuePersist.InstallLog.
+
+Fase de reversão foi concluída com êxito.
+
+Instalação transacionada concluída.
+
+Executando uma instalação transacionada.
+
+Começando a fase de instalação da instalação.
+Consulte o conteúdo do arquivo de log para o andamento do assembly C:\InstSvc\ServiceStoneQueuePersist.exe.
+Arquivo está localizado em C:\InstSvc\ServiceStoneQueuePersist.InstallLog.
+
+Ocorreu uma exceção durante a fase de instalação.
+System.Security.SecurityException: Fonte não encontrada, mas alguns ou todos os logs de evento não puderam ser pesquisados. Logs inacessíveis: Security.
+
+Fase de reversão da instalação está começando.
+Consulte o conteúdo do arquivo de log para o andamento do assembly C:\InstSvc\ServiceStoneQueuePersist.exe.
+Arquivo está localizado em C:\InstSvc\ServiceStoneQueuePersist.InstallLog.
+
+Fase de reversão foi concluída com êxito.
+
+Instalação transacionada concluída.
