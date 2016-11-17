@@ -16,7 +16,7 @@ namespace GerenciaSaldos.Tests.Controllers
             RemoveSaldoOnLineController controller = new RemoveSaldoOnLineController();
 
             // Act
-            HttpResponseMessage result = controller.Put(1, 1) as HttpResponseMessage;
+            HttpResponseMessage result = controller.Put(1, 1,"TTT") as HttpResponseMessage;
 
             // Assert
             Assert.IsNotNull(result);
